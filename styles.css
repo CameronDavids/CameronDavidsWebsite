@@ -5,7 +5,7 @@
 }
 
 body {
-	background-color: #24252A;
+	background-image: radial-gradient(rgba(0, 0, 0, 0.911), rgba(0, 0, 0, 0.603),rgba(0, 0, 0, 0.041)), url(Images/black1.jpg);
 }
 
 #main_logo{
@@ -315,7 +315,7 @@ button:hover {
 	z-index: 1;
 	left: 0;
 	top: 0;
-	background-color: #24252A;
+	background-image: radial-gradient(rgba(0, 0, 0, 0.911), rgba(0, 0, 0, 0.603),rgba(0, 0, 0, 0.041)), url(Images/black1.jpg) ;
 	overflow-x: hidden;
 	transition: all 0.5s ease 0s;
 }
