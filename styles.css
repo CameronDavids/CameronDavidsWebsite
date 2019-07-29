@@ -5,7 +5,7 @@
 }
 
 body {
-	background-image: radial-gradient(rgba(0, 0, 0, 0.911), rgba(0, 0, 0, 0.603),rgba(0, 0, 0, 0.041)), url(Images/black1.jpg);
+	background-image: url(Images/black1.jpg);
 }
 
 #main_logo{
@@ -79,6 +79,10 @@ h2 {
   }
 
 /* Portfolio END */
+
+label, input, textarea{
+	display: block;
+}
 
 p{
 	margin-left: 15%;
