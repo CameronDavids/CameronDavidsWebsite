@@ -6,6 +6,9 @@
    <meta name="description" content="">
    <meta name="viewport" content="width=device-width, initial-scale=1">
    <link rel="stylesheet" href="styles.css">
+  
+   <script type="text/javascript" src="mobile.js"></script>
+
 </head>
 <body>
    <header>
@@ -29,16 +32,38 @@
          <a href="Contact.html">Contact</a>
       </div>
    </div>
-   <div id= "wrapper">
-   <h3>Contact Me</h3>
-   <section>
-      <p>Location:</p>    
-      <p>2 Goerge Street Mexico, CA 98742</p>
-      <p>Contact Number:</p>
-      <p>+1-613-555-0135</p>
-   </section>
 
-   <iframe style="width: 100%; " src="https://docs.google.com/forms/d/e/1FAIpQLSfvECIt-U73WxwQe3UPdpZQ-0tVjPzSo7O09GqyZ9hl-tkEWw/viewform?embedded=true" width="640" height="994" frameborder="0" marginheight="0" marginwidth="0">Loading... </iframe>
-   <script type="text/javascript" src="mobile.js"></script>
+        <div class="contact">
+          <h3>Email Me</h3>
+          <form>
+            <p>
+              <label>Name</label>
+              <input type="text" name="name">
+            </p>
+            <p>
+              <label>Surname</label>
+              <input type="text" name="surname">
+            </p>
+            <p>
+              <label>Email Address</label>
+              <input type="email" name="email">
+            </p>
+            <p>
+              <label>Phone Number</label>
+              <input type="text" name="phone">
+            </p>
+            <p class="full">
+              <label >Message</label>
+              <textarea name="message" rows="5"></textarea>
+            </p>
+            
+            <p>
+              <button type="submit" class="submit">Submit</button>
+            </p>
+          </form>
+        </div>
+      
+    
+  
 </body>
 </html>
