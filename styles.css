@@ -71,7 +71,7 @@ h2 {
   }
   
   .text {
-	background-color: blueviolet;
+
 	color: floralwhite;
 	font-family: "Montserrat", sans-serif;
 	font-size: 100%;
@@ -319,7 +319,7 @@ button:hover {
 	z-index: 1;
 	left: 0;
 	top: 0;
-	background-image: radial-gradient(rgba(0, 0, 0, 0.911), rgba(0, 0, 0, 0.603),rgba(0, 0, 0, 0.041)), url(Images/black1.jpg) ;
+	background-image: url(Images/black1.jpg) ;
 	overflow-x: hidden;
 	transition: all 0.5s ease 0s;
 }
@@ -345,6 +345,24 @@ button:hover {
 	top: 20px;
 	right: 45px;
 	font-size: 60px;
+}
+
+.contactForm{
+	text-align: center;
+	
+}
+
+
+div.alert{
+	text-align: center;
+	padding: 10px;
+	font-family: "Montserrat", sans-serif;
+	font-weight: 400;
+	font-size: 100%;
+	color: #edf0f1;
+	text-decoration: none;
+	display: none;
+
 }
 
 @media screen and (max-height: 450px) {

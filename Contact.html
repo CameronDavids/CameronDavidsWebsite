@@ -3,10 +3,10 @@
    <meta charset="utf-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <title>Cameron Davids</title>
+   <script src="https://www.google.com/recaptcha/api.js" async defer></script>
    <meta name="description" content="">
    <meta name="viewport" content="width=device-width, initial-scale=1">
    <link rel="stylesheet" href="styles.css">
-  
    <script type="text/javascript" src="mobile.js"></script>
 
 </head>
@@ -33,37 +33,45 @@
       </div>
    </div>
 
-        <div class="contact">
-          <h3>Email Me</h3>
-          <form>
+        <div class="contact"></div>
+          <h3><u>Contact me</u></h3>
+   
+        <p> 44 Something st</p>
+        <p> (555) 555-5555</p>
+        <p> test@acme.test</p>
+   
+
+        
+          
+          <div class="alert">Your message has been sent</div>
+          <form id="contactForm">
             <p>
               <label>Name</label>
-              <input type="text" name="name">
+              <input type="name" name="name" id="name" required>
             </p>
             <p>
-              <label>Surname</label>
-              <input type="text" name="surname">
-            </p>
             <p>
               <label>Email Address</label>
-              <input type="email" name="email">
+              <input type="email" name="email" id="email" required>
             </p>
             <p>
               <label>Phone Number</label>
-              <input type="text" name="phone">
+              <input type="text" name="phone" id="phone">
             </p>
             <p class="full">
               <label >Message</label>
-              <textarea name="message" rows="5"></textarea>
+              <textarea name="message" rows="5" id="message"></textarea>
             </p>
             
             <p>
-              <button type="submit" class="submit">Submit</button>
+              <button type="submit" >Submit</button>
             </p>
           </form>
+
         </div>
-      
-    
-  
+
+        <script src="https://www.gstatic.com/firebasejs/6.3.3/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/6.3.3/firebase-database.js"></script>
+        <script src="main.js"></script>
 </body>
 </html>
