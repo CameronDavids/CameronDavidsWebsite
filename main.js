@@ -1,13 +1,15 @@
- // Your web app's Firebase configuration
- var firebaseConfig = {
-    apiKey: "AIzaSyCB98HsGqG_vxVedq9Ql9TRjcfpUrV-BQM",
-    authDomain: "contactform-93362.firebaseapp.com",
-    databaseURL: "https://contactform-93362.firebaseio.com",
-    projectId: "contactform-93362",
-    storageBucket: "contactform-93362.appspot.com",
-    messagingSenderId: "158913922385",
-    appId: "1:158913922385:web:17a1410dc938ab49"
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyBb8Z1vtGtbZ-8x9Bzr7h5h1G-2XiXHT6o",
+    authDomain: "website-296b6.firebaseapp.com",
+    databaseURL: "https://website-296b6.firebaseio.com",
+    projectId: "website-296b6",
+    storageBucket: "",
+    messagingSenderId: "802203419545",
+    appId: "1:802203419545:web:ddae10246ea46fe7"
   };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
 
