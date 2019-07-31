@@ -65,13 +65,17 @@ function saveMessage(name, email, message){
 }
 
 
-function dataCallback(captcha){
-    fetch('https://us-centrall-contact-form-93362.cloudfunctions.net/checkRecaptcha ',{
-        method: "POST",
-        headers: {
-            "Accept": 'application/json, text, text/SecurityPolicyViolationEvent, "/"',
-        "Content-type" : ""
-        },
-        
-    })
-}
+//function dataCallback(captcha){
+  //  fetch('https://us-centrall-contact-form-93362.cloudfunctions.net/checkRecaptcha ',{
+    //    method: "POST",
+      //  headers: {
+        //    "Accept": 'application/json, text, text/SecurityPolicyViolationEvent, "/"',
+//        "Content-type" : ""
+  //      },
+    //    body:JSON.stringify({captcha: captcha})
+
+//    }).then((res) => res.json()) .then((data) => {
+  //      if (data.success)
+    //{recapture = true;}
+//    })
+//}
