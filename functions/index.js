@@ -13,7 +13,7 @@ const gmailEmail= functions.config().gmail.email;
 const gmailPassword= functions.config().gmail.password;
 
 const transporter = nodemailer.createTransport({
-    service: 'gmail',
+    service: "gmail",
 
     auth: {
         user: gmailEmail,
@@ -21,7 +21,7 @@ const transporter = nodemailer.createTransport({
     }
 });
 
-function sendMail(name, email, phone, message){
+function sendmail(name, email, phone, message){
 
     var mailOptions={
 
@@ -57,7 +57,7 @@ exports.sendEmails = functions.database.ref('/message/{name}').onCreate((snapsho
     const email = val.email;
     const message = val.message;
     const phone = val.phone;
-    sendMail(name, email, phone, message);
+    sendmail(name, email, phone, message);
     return null;
 });
 
