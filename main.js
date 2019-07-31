@@ -26,11 +26,10 @@ function submitForm(e){
     // get values
     var name = getInputVal('name');
     var email = getInputVal('email');
-    var phone = getInputVal('phone');
     var message = getInputVal('message');
 
     // save message
-    saveMessage(name, email, phone, message);
+    saveMessage(name, email, message);
 
     //Show alert
     document.querySelector('.alert').style.display = 'block';
@@ -50,12 +49,11 @@ function getInputVal(id){
 }
 
 // save message to fire 
-function saveMessage(name, email, phone, message){
+function saveMessage(name, email, message){
     var newMessageRef = messagesRef.push();
     newMessageRef.set({
         name: name,
         email: email,
-        phone: phone,
         message: message
     });
 }
