@@ -1,5 +1,5 @@
- // Your web app's Firebase configuration
- var firebaseConfig = {
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
     apiKey: "AIzaSyCB98HsGqG_vxVedq9Ql9TRjcfpUrV-BQM",
     authDomain: "contactform-93362.firebaseapp.com",
     databaseURL: "https://contactform-93362.firebaseio.com",
@@ -8,6 +8,8 @@
     messagingSenderId: "158913922385",
     appId: "1:158913922385:web:17a1410dc938ab49"
   };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
 
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
