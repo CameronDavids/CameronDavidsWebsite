@@ -30,8 +30,8 @@ exports.sendEmails = functions.database.ref('/message/{name}').onCreate((snapsho
 
 
     var mailOptions={
-        from: gmailEmail,
-        to: gmailEmail,
+        from:'camerondavids320@gmail.com',
+        to: 'camerond320@gmail.com',
         subject:'New Submission',
         html: `<h1>Someone is trying to contact you!</h1>
         <h3>Name</h3>
