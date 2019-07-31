@@ -13,7 +13,7 @@ const transporter = nodemailer.createTransport({
     }
 });
 
-function sendmail(name, email, message){
+function sendMail(name, email, message){
 
     var mailOptions={
 
