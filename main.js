@@ -63,3 +63,15 @@ function saveMessage(name, email, message){
         message: message
     });
 }
+
+
+function dataCallback(captcha){
+    fetch('https://us-centrall-contact-form-93362.cloudfunctions.net/checkRecaptcha ',{
+        method: "POST",
+        headers: {
+            "Accept": 'application/json, text, text/SecurityPolicyViolationEvent, "/"',
+        "Content-type" : ""
+        },
+        
+    })
+}
