@@ -33,16 +33,18 @@ exports.sendEmails = functions.database.ref('/message/{name}').onCreate((snapsho
         from:gmailEmail,
         to: gmailEmail,
         subject:'New Submission',
-        html: `<h1>Someone is trying to contact you!</h1>
-        <h3>Name</h3>
-        <p>${name}</p>
-        <h3>Email</h3>
-        <p>${email}</p>
-        <h3>Number Phone</h3>
-        <p>${phone}</p>
-        <h3>Message</h3>
-        <p>${message}</p>`
+        html: "test"
    
+        // `<h1>Someone is trying to contact you!</h1>
+        // <h3>Name</h3>
+        // <p>${name}</p>
+        // <h3>Email</h3>
+        // <p>${email}</p>
+        // <h3>Number Phone</h3>
+        // <p>${phone}</p>
+        // <h3>Message</h3>
+        // <p>${message}</p>`
+
      };
     
 
