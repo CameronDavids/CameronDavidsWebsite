@@ -21,10 +21,15 @@ const transporter = nodemailer.createTransport({
     }
 });
 
-function sendmail(name, email, phone, message){
+exports.sendEmails = functions.database.ref('/message/{name}').onCreate((snapshot, context) =>{
+    const val = snapshot.val();
+     const name = val.name;
+    const email = val.email;
+     const message = val.message;
+     const phone = val.phone;
+
 
     var mailOptions={
-
         from: gmailEmail,
         to: gmailEmail,
         subject:'New Submission',
@@ -37,28 +42,23 @@ function sendmail(name, email, phone, message){
         <p>${phone}</p>
         <h3>Message</h3>
         <p>${message}</p>`
-    };
-
-
-    transporter.sendMail(mailOptions, function(error, info){
-        if(error){
-            console.log(error);
-        }
-        else{
-            console.log('Email sent:' + info.response);
-        }
-    });
+   
+     };
     
-};
 
-exports.sendEmails = functions.database.ref('/message/{name}').onCreate((snapshot, context) =>{
-    const val = snapshot.val();
-    const name = val.name;
-    const email = val.email;
-    const message = val.message;
-    const phone = val.phone;
-    sendmail(name, email, phone, message);
-    return null;
+transporter.sendMail(mailOptions, function(error, info){
+    if(error){
+        console.log(error);
+    }
+    else{
+        console.log('Email sent:' + info.response);
+    }
+
 });
+
+
+return null;
+});
+
 
     
