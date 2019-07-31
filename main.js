@@ -4,7 +4,7 @@
     authDomain: "website-296b6.firebaseapp.com",
     databaseURL: "https://website-296b6.firebaseio.com",
     projectId: "website-296b6",
-    storageBucket: "",
+    storageBucket: "website-296b6",
     messagingSenderId: "802203419545",
     appId: "1:802203419545:web:ddae10246ea46fe7"
   };
