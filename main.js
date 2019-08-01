@@ -11,14 +11,6 @@
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
 
-  // Initialize Firebase
-  firebase.initializeApp(firebaseConfig);
-
-  // Initialize Firebase
-  firebase.initializeApp(firebaseConfig);
-  // Initialize Firebase
-  firebase.initializeApp(firebaseConfig);
-
 // refference message collection
 var messagesRef = firebase.database().ref('messages');
 
