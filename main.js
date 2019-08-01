@@ -58,6 +58,10 @@ function saveMessage(name, email, message){
     });
 }
 
+function dataCallback(Key){
+  console.log("recapclicked");
+}
+
 
 //function dataCallback(captcha){
   //  fetch('https://us-centrall-contact-form-93362.cloudfunctions.net/checkRecaptcha ',{
