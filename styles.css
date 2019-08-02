@@ -3,11 +3,9 @@
 	box-sizing: border-box;
 	padding: 0;	
 }
-
 body {
 	background-image: url(Images/black1.jpg);
 }
-
 #main_logo{
 	position: absolute;
 	left: 50%;
@@ -18,39 +16,32 @@ body {
 	color: floralwhite;
 	font-size: 100%;
 }
-
 /* Portfolio */
 
 .main {
   max-width: 1000px;
   margin: auto;
 }
-
 .row {
   margin: 8px -16px;
 }
-
 .row,
 .row > .column {
   padding: 8px;
 }
-
 .column {
   float: left;
   width: 50%;
 }
-
 h2 {
 	margin-left: 15%;
 	color: floralwhite;
 	font-family: "Montserrat", sans-serif;
 }
-
 .column {
 	position: relative;
 	width: 50%;
-  }
-  
+}
   .middle {
 	transition: .5s ease;
 	opacity: 0;
@@ -61,17 +52,13 @@ h2 {
 	-ms-transform: translate(-50%, -50%);
 	text-align: center;
   }
-  
   .column:hover .image {
 	opacity: 0.3;
   }
-  
   .column:hover .middle {
 	opacity: 1;
   }
-  
   .text {
-
 	color: floralwhite;
 	font-family: "Montserrat", sans-serif;
 	font-size: 100%;
@@ -79,24 +66,20 @@ h2 {
   }
 
 /* Portfolio END */
-
 label, input, textarea{
 	display: block;
 }
-
 p{
 	margin-left: 15%;
 	color: floralwhite;
 	font-family: "Montserrat", sans-serif;
 	font-size: 15px;
 }
-
 .skill {
 	width: 100%;
 	height: 100vh;
 	padding-top: 60px;
 }
-
 .container {
 	width: 70%;
 	height: 10px;
@@ -104,13 +87,11 @@ p{
 	border: 3px solid grey;
 	margin: 10px auto;
 }
-
 h3 {
 	margin-left: 15%;
 	color: floralwhite;
 	font-family: "Montserrat", sans-serif;
 }
-
 .bar {
 	box-shadow: 0px 0px 10px 4px rgb(135, 236, 211);
 	height: 4px;
@@ -118,12 +99,10 @@ h3 {
 	border-radius: 2px;
 	background-color:blueviolet;
 }
-
 .html {
 	animation: html 2s;
 	width: 65%;
 }
-
 @keyframes html {
 	0% {
 		width: 0%;
@@ -132,12 +111,10 @@ h3 {
 		width: 65%;
 	}
 }
-
 .CSS {
 	animation: CSS 2s;
 	width: 60%;
 }
-
 @keyframes CSS {
 	0% {
 		width: 0%;
@@ -146,12 +123,10 @@ h3 {
 		width: 60%;
 	}
 }
-
 .JavaScript {
 	animation: JavaScript 2s;
 	width: 30%;
 }
-
 @keyframes JavaScript {
 	0% {
 		width: 0%;
@@ -160,12 +135,10 @@ h3 {
 		width: 30%;
 	}
 }
-
 .Java {
 	animation: Java 2s;
 	width: 75%;
 }
-
 @keyframes Java {
 	0% {
 		width: 0%;
@@ -174,7 +147,6 @@ h3 {
 		width: 75%;
 	}
 }
-
 li,
 a,
 button {
@@ -186,7 +158,6 @@ button {
 	color: #edf0f1;
 	text-decoration: none;
 }
-
 .center {
 	width: 100%;
 	height: 100%;
@@ -195,7 +166,6 @@ button {
 	width: 50%;
 	height: 50%;
 }
-
 #logo1 {
 	font-family: "Montserrat", sans-serif;
 	font-weight: 400;
@@ -203,21 +173,18 @@ button {
 	color: #edf0f1;
 	text-decoration: none;
 }
-
 header {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	padding: 0px 5%;
 }
-
 h3 {
 	font-weight: 500;
 	font-size: 16px;
 	color: #edf0f1;
 	text-decoration: none;
 }
-
 #wrapper {
 	font-family: "Montserrat", sans-serif;
 	font-weight: 500;
@@ -226,7 +193,6 @@ h3 {
 	text-decoration: none;
 	margin: 5%;
 }
-
 .profilepicture {
 	max-width: 300px;
 	margin: 15px auto 15px auto;
@@ -234,38 +200,30 @@ h3 {
 	size: 50%;
 	float: left;
 }
-
 .logo {
 	cursor: pointer;
 	height: 100px;
 	width: 100px;
 }
-
 .nav_links {
 	list-style: none;
 }
-
 .nav_links li {
 	display: inline-block;
 	padding: 0px 30px;
 }
-
 .nav_links li a {
 	transition: all 0.3s ease 0s;
 }
-
 .nav_links li a:hover {
 	color: #0088a9
 }
-
 .menu {
 	display: none;
 }
-
 footer p {
 	font-style: italic;
 }
-
 footer {
 	color: #edf0f1;
 	font-family: "Montserrat", sans-serif;
@@ -278,11 +236,9 @@ footer {
 	width: 100%;
 	position: absolute;
 }
-
 footer a {
 	text-decoration: none;
 }
-
 .socialicons {
 	height: 40px;
 	width: 40px;
@@ -346,13 +302,10 @@ button:hover {
 	right: 45px;
 	font-size: 60px;
 }
-
 .contactForm{
 	text-align: center;
 	
 }
-
-
 div.alert{
 	text-align: center;
 	padding: 10px;
@@ -364,7 +317,6 @@ div.alert{
 	display: none;
 
 }
-
 @media screen and (max-height: 450px) {
 	.overlay a {
 		font-size: 20px
