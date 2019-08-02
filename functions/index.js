@@ -31,7 +31,7 @@ function sendmail(name, email, message){
     };
 
 
-    transporter.sendMail(mailOptions, function(error, info){
+    transporter.sendmail(mailOptions, function(error, info){
         if(error){
             console.log(error);
         }
